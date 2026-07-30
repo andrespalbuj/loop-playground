@@ -22,6 +22,15 @@ for (let i=0;i<palabraDelDia.length;i++) {
     let siguienteLetraCorrecta = palabraDelDia[i];
     let siguienteLetraIntroducida = palabraIntroducida[i];
 
+    if (siguienteLetraIntroducida === siguienteLetraCorrecta){console.log(`la letra ${siguienteLetraIntroducida} es correcta`);
+}   else if (palabraDelDia.includes(siguienteLetraIntroducida)){
+    console.log(`la letra ${siguienteLetraIntroducida} es correcta, PERO se encuentra en una posición diferente`)
+}
+    else {
+        console.log(`la letra ${siguienteLetraIntroducida} NO es correcta`)
+    }
+    
+    
     // Tu código a partir de aquí, dentro del bucle
 }
 

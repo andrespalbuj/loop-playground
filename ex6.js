@@ -12,11 +12,15 @@
 let numeroFinal = 5;
 
 for (let i = -5; i < numeroFinal; i++) {
-  console.log("Voy a ejecutar el condicional para el número: " + i);
+  console.log(i);
 
-  console.log("Soy un número positivo!");
-  console.log("Soy un núemro negativo!");
+if ( i < 0 ){
+      console.log("Soy un núemro negativo!");
+} else if (i >= 0)
+      console.log("Soy un número positivo!");
 }
+
+
 
 /**
  * Resultado esperado: https://oscarm.tinytake.com/msc/ODc4MzYyNF8yMjIwMzg1OA
