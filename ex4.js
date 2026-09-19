@@ -15,7 +15,7 @@
 let numeroVeces = 10;
 
 for (let i = 0; i < numeroVeces; i++) {
-  console.log("Ejecuto!");
+  console.log("Ejecuto todo!");
 }
 
 /**
