@@ -30,7 +30,7 @@ for (let i = 1; i <= 10; i++) {
 
 let numero = 5;
 console.log("Tabla de multiplicar del " + numero + ":");
-for (let i=1; i <= 10; i ++){
+for (i=1; i <= 10; i ++){
     console.log(numero + " * " + i + " = " + numero * i);
 }
 

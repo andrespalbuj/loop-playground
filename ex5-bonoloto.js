@@ -22,8 +22,8 @@ Bola 6: 11
 ...
 NO TE PREOCUPES SI HAY NÚMEROS REPETIDOS.
 */
-
+  
 for (let i = 1; i <= 6; i++) {
-  const Papeleta = Math.floor(Math.random() * 49) + 1;
+   const Papeleta = Math.floor(Math.random() * 49) + 1;
   console.log("Bola " + i + ": " + Papeleta);
 }

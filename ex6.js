@@ -11,13 +11,15 @@
 
 let numeroFinal = 5;
 
-for (let i = -5; i < numeroFinal; i++) {
+for (i = -5; i < numeroFinal; i++) {
   console.log(i);
 
-if ( i < 0 ){
+   if ( i < 0 ){
       console.log("Soy un núemro negativo!");
-} else if (i >= 0)
+}
+   else if (i >= 0){
       console.log("Soy un número positivo!");
+}
 }
 
 

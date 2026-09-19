@@ -5,7 +5,7 @@
  *
  * Ejemplo:
  *
- * "Estoy en la iteación 0"
+ * "Estoy en la iteración 0"
  * "Estoy en la iteración 1"
  * .
  * .
@@ -16,9 +16,9 @@
  *
  */
 
-for (var i = 0; i < 10; i++) {
+for (i = 0; i < 10; i++) {
   // aquí tu código
-  console.log("Estoy en la iteración: " +i);
+  console.log("Estoy en la iteración: " + i);
 }
 
 /**
